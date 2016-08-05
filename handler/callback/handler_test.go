@@ -9,10 +9,10 @@ import (
 
 	"golang.org/x/oauth2"
 
-	"github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugin/handler"
-	. "github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugin/handler/callback"
-	"github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugin/session/sessionfakes"
-	"github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugin/token/tokenfakes"
+	"github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugins/handler"
+	. "github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugins/handler/callback"
+	"github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugins/session/sessionfakes"
+	"github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugins/token/tokenfakes"
 
 	"github.com/gorilla/sessions"
 	. "github.com/onsi/ginkgo"

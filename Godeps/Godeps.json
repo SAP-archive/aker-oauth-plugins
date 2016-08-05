@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugin",
+	"ImportPath": "github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugins",
 	"GoVersion": "go1.6",
 	"GodepVersion": "v74",
 	"Packages": [

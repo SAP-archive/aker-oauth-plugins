@@ -1,7 +1,7 @@
 package token_test
 
 import (
-	. "github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugin/token"
+	. "github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugins/token"
 	"golang.org/x/oauth2"
 
 	. "github.com/onsi/ginkgo"

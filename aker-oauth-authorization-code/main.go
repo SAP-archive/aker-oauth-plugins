@@ -6,8 +6,8 @@ import (
 	"github.infra.hana.ondemand.com/cloudfoundry/aker/logging"
 	"github.infra.hana.ondemand.com/cloudfoundry/aker/plugin"
 
-	"github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugin/handler"
-	"github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugin/handler/authorization"
+	"github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugins/handler"
+	"github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugins/handler/authorization"
 )
 
 func main() {

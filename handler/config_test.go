@@ -1,7 +1,7 @@
 package handler_test
 
 import (
-	. "github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugin/handler"
+	. "github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugins/handler"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

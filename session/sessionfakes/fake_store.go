@@ -6,7 +6,7 @@ import (
 	"sync"
 
 	"github.com/gorilla/sessions"
-	"github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugin/session"
+	"github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugins/session"
 )
 
 type FakeStore struct {

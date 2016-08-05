@@ -7,7 +7,7 @@ import (
 
 	"golang.org/x/oauth2"
 
-	. "github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugin/token"
+	. "github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugins/token"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

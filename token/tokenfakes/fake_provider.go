@@ -4,7 +4,7 @@ package tokenfakes
 import (
 	"sync"
 
-	"github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugin/token"
+	"github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugins/token"
 	"golang.org/x/oauth2"
 )
 

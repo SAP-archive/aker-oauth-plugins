@@ -8,8 +8,8 @@ import (
 
 	"github.com/gorilla/context"
 	"github.com/gorilla/sessions"
-	"github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugin/handler"
-	"github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugin/token"
+	"github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugins/handler"
+	"github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugins/token"
 	"github.infra.hana.ondemand.com/cloudfoundry/aker/logging"
 )
 
