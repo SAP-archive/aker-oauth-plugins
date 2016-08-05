@@ -1,0 +1,14 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: golang
+    tag: "1.6.3"
+
+inputs:
+  - name: aker-oauth-plugin
+
+run:
+    path: aker-oauth-plugin/concourse/ginkgo-tests.sh
