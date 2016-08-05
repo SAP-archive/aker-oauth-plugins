@@ -11,9 +11,9 @@ import (
 	"github.com/gorilla/sessions"
 	"github.com/satori/go.uuid"
 
-	"github.infra.hana.ondemand.com/I061150/aker/logging"
 	"github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugin/handler"
 	"github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugin/token"
+	"github.infra.hana.ondemand.com/cloudfoundry/aker/logging"
 )
 
 const HeaderOAuthAccessToken = "X-Aker-OAuth-Token-Access-Token"

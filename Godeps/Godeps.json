@@ -7,10 +7,6 @@
 	],
 	"Deps": [
 		{
-			"ImportPath": "github.com/cloudfoundry-incubator/candiedyaml",
-			"Rev": "03dec5cff353c1022c095dd7681b3882cd441782"
-		},
-		{
 			"ImportPath": "github.com/golang/protobuf/proto",
 			"Rev": "5fc2294e655b78ed8a02082d37808d46c17d7e64"
 		},
@@ -174,16 +170,16 @@
 			"Rev": "f9ab0dce87d815821e221626b772e3475a0d2749"
 		},
 		{
-			"ImportPath": "github.infra.hana.ondemand.com/I061150/aker/logging",
-			"Rev": "59becb63f18a3ed04f4d90d7cbcf2b9116cf75f1"
+			"ImportPath": "github.infra.hana.ondemand.com/cloudfoundry/aker/logging",
+			"Rev": "2cec283837a46ba7c937d5d066013acb6650641e"
 		},
 		{
-			"ImportPath": "github.infra.hana.ondemand.com/I061150/aker/plugin",
-			"Rev": "59becb63f18a3ed04f4d90d7cbcf2b9116cf75f1"
+			"ImportPath": "github.infra.hana.ondemand.com/cloudfoundry/aker/plugin",
+			"Rev": "2cec283837a46ba7c937d5d066013acb6650641e"
 		},
 		{
-			"ImportPath": "github.infra.hana.ondemand.com/I061150/aker/socket",
-			"Rev": "59becb63f18a3ed04f4d90d7cbcf2b9116cf75f1"
+			"ImportPath": "github.infra.hana.ondemand.com/cloudfoundry/aker/socket",
+			"Rev": "2cec283837a46ba7c937d5d066013acb6650641e"
 		},
 		{
 			"ImportPath": "golang.org/x/net/context",
@@ -199,7 +195,7 @@
 		},
 		{
 			"ImportPath": "gopkg.in/yaml.v2",
-			"Rev": "a83829b6f1293c91addabc89d0571c246397bbf4"
+			"Rev": "e4d366fc3c7938e2958e662b4258c7a89e1f0e3e"
 		}
 	]
 }

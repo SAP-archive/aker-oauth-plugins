@@ -1,6 +1,6 @@
 package handler
 
-import "github.infra.hana.ondemand.com/I061150/aker/plugin"
+import "github.infra.hana.ondemand.com/cloudfoundry/aker/plugin"
 
 const SessionKeyLength = 32
 const SessionName = "aker-oauth-authorization"

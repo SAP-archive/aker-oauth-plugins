@@ -3,8 +3,8 @@ package main
 import (
 	"net/http"
 
-	"github.infra.hana.ondemand.com/I061150/aker/logging"
-	"github.infra.hana.ondemand.com/I061150/aker/plugin"
+	"github.infra.hana.ondemand.com/cloudfoundry/aker/logging"
+	"github.infra.hana.ondemand.com/cloudfoundry/aker/plugin"
 
 	"github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugin/handler"
 	"github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugin/handler/authorization"

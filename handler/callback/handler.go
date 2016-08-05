@@ -8,9 +8,9 @@ import (
 
 	"github.com/gorilla/context"
 	"github.com/gorilla/sessions"
-	"github.infra.hana.ondemand.com/I061150/aker/logging"
 	"github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugin/handler"
 	"github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugin/token"
+	"github.infra.hana.ondemand.com/cloudfoundry/aker/logging"
 )
 
 func HandlerFromConfig(cfg *handler.Config) (http.Handler, error) {
