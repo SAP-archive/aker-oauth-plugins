@@ -7,22 +7,9 @@
 	],
 	"Deps": [
 		{
-			"ImportPath": "github.com/golang/protobuf/proto",
-			"Rev": "5fc2294e655b78ed8a02082d37808d46c17d7e64"
-		},
-		{
-			"ImportPath": "github.com/gorilla/context",
-			"Comment": "v1.1-4-gaed02d1",
-			"Rev": "aed02d124ae4a0e94fea4541c8effd05bf0c8296"
-		},
-		{
 			"ImportPath": "github.com/gorilla/securecookie",
 			"Comment": "v1.1-2-gff35634",
 			"Rev": "ff356348f74133a59d3e93aa24b5b4551b6fe90d"
-		},
-		{
-			"ImportPath": "github.com/gorilla/sessions",
-			"Rev": "a4e6dd28f9e9274729417506b9bd0a6c3edb91ce"
 		},
 		{
 			"ImportPath": "github.com/onsi/ginkgo",
@@ -110,11 +97,6 @@
 			"Rev": "c73e51675ad2455a4515b6213eb7145eaade4824"
 		},
 		{
-			"ImportPath": "github.com/onsi/gomega/ghttp",
-			"Comment": "v1.0-97-gc73e516",
-			"Rev": "c73e51675ad2455a4515b6213eb7145eaade4824"
-		},
-		{
 			"ImportPath": "github.com/onsi/gomega/internal/assertion",
 			"Comment": "v1.0-97-gc73e516",
 			"Rev": "c73e51675ad2455a4515b6213eb7145eaade4824"
@@ -171,15 +153,35 @@
 		},
 		{
 			"ImportPath": "github.infra.hana.ondemand.com/cloudfoundry/aker/logging",
-			"Rev": "2cec283837a46ba7c937d5d066013acb6650641e"
+			"Rev": "e60918e2bbf255c57ad01c64672e488534b5c8b5"
 		},
 		{
 			"ImportPath": "github.infra.hana.ondemand.com/cloudfoundry/aker/plugin",
-			"Rev": "2cec283837a46ba7c937d5d066013acb6650641e"
+			"Rev": "e60918e2bbf255c57ad01c64672e488534b5c8b5"
 		},
 		{
 			"ImportPath": "github.infra.hana.ondemand.com/cloudfoundry/aker/socket",
-			"Rev": "2cec283837a46ba7c937d5d066013acb6650641e"
+			"Rev": "e60918e2bbf255c57ad01c64672e488534b5c8b5"
+		},
+		{
+			"ImportPath": "github.infra.hana.ondemand.com/cloudfoundry/goauth_handlers",
+			"Rev": "d5a5964cc4f0f070e1d53f7dc91f2b855a28d3b6"
+		},
+		{
+			"ImportPath": "github.infra.hana.ondemand.com/cloudfoundry/goauth_handlers/cookie",
+			"Rev": "d5a5964cc4f0f070e1d53f7dc91f2b855a28d3b6"
+		},
+		{
+			"ImportPath": "github.infra.hana.ondemand.com/cloudfoundry/goauth_handlers/session",
+			"Rev": "d5a5964cc4f0f070e1d53f7dc91f2b855a28d3b6"
+		},
+		{
+			"ImportPath": "github.infra.hana.ondemand.com/cloudfoundry/goauth_handlers/token",
+			"Rev": "d5a5964cc4f0f070e1d53f7dc91f2b855a28d3b6"
+		},
+		{
+			"ImportPath": "github.infra.hana.ondemand.com/cloudfoundry/gologger",
+			"Rev": "5c1c53373ac4e9bf892cea475c1c5fa8b995f3a4"
 		},
 		{
 			"ImportPath": "golang.org/x/net/context",

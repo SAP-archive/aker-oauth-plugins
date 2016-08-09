@@ -3,11 +3,10 @@ package main
 import (
 	"net/http"
 
-	"github.infra.hana.ondemand.com/cloudfoundry/aker/logging"
 	"github.infra.hana.ondemand.com/cloudfoundry/aker/plugin"
+	"github.infra.hana.ondemand.com/cloudfoundry/gologger"
 
 	"github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugins/handler"
-	"github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugins/handler/callback"
 )
 
 func main() {
@@ -16,9 +15,9 @@ func main() {
 		if err != nil {
 			return nil, err
 		}
-		return callback.HandlerFromConfig(cfg)
+		return handler.CallbackHandlerFromConfig(cfg)
 	}
 	if err := plugin.ListenAndServeHTTP(factory); err != nil {
-		logging.Fatalf("Error creating plugin: %v", err)
+		gologger.Fatalf("Error creating plugin: %v", err)
 	}
 }

@@ -41,13 +41,13 @@ The `oauth.required_scopes` property specifies a list of scopes that the user wi
 
 This plugin sets the following headers to be used by subsequent plugins:
 
-* `X-Aker-OAuth-Token-Access-Token` - The access token of the user.
-* `X-Aker-OAuth-Token-Refresh-Token` - The refresh token of the user.
-* `X-Aker-OAuth-Token-Type` - The type of token. (Should be `bearer`)
-* `X-Aker-OAuth-Token-Expiry` - The expiration date of the token in `UnixNano` format.
-* `X-Aker-OAuth-Info-User-ID` - The user's ID.
-* `X-Aker-OAuth-Info-User-Name` - The user's Username.
-* `X-Aker-OAuth-Info-User-Scopes` - The scopes that the token has been granted to by the OAuth server.
+* `X-Aker-Oauth-Token-Access-Token` - The access token of the user.
+* `X-Aker-Oauth-Token-Refresh-Token` - The refresh token of the user.
+* `X-Aker-Oauth-Token-Type` - The type of token. (Should be `bearer`)
+* `X-Aker-Oauth-Token-Expiry` - The expiration date of the token in `UnixNano` format.
+* `X-Aker-Oauth-Info-User-Id` - The user's ID.
+* `X-Aker-Oauth-Info-User-Name` - The user's Username.
+* `X-Aker-Oauth-Info-User-Scopes` - The scopes that the token has been granted to by the OAuth server.
 
 
 ## Aker OAuth Authorization Code Callback Plugin

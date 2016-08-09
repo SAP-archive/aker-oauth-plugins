@@ -1,9 +1,12 @@
 package handler
 
-import "github.infra.hana.ondemand.com/cloudfoundry/aker/plugin"
+import (
+	"fmt"
 
-const SessionKeyLength = 32
-const SessionName = "aker-oauth-authorization"
+	"github.infra.hana.ondemand.com/cloudfoundry/aker/plugin"
+)
+
+const sessionStoreKeyLength = 32
 
 type Config struct {
 	OAuth   OAuthConfig   `yaml:"oauth"`
@@ -33,18 +36,28 @@ func ParseConfig(data []byte) (*Config, error) {
 	}
 
 	authKey := []byte(cfg.Session.AuthenticationKey)
-	if len(authKey) != SessionKeyLength {
+	if len(authKey) != sessionStoreKeyLength {
 		return nil, &InvalidKeyLengthError{
 			key:     authKey,
 			keyType: "authentication",
 		}
 	}
 	encKey := []byte(cfg.Session.EncryptionKey)
-	if len(encKey) != SessionKeyLength {
+	if len(encKey) != sessionStoreKeyLength {
 		return nil, &InvalidKeyLengthError{
 			key:     encKey,
 			keyType: "encryption",
 		}
 	}
 	return cfg, nil
+}
+
+type InvalidKeyLengthError struct {
+	key     []byte
+	keyType string
+}
+
+func (e *InvalidKeyLengthError) Error() string {
+	return fmt.Sprintf("Invalid %s key of length %d, expected %d",
+		e.keyType, len(e.key), sessionStoreKeyLength)
 }
