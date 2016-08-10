@@ -161,19 +161,19 @@
 		},
 		{
 			"ImportPath": "github.infra.hana.ondemand.com/cloudfoundry/goauth_handlers",
-			"Rev": "d5a5964cc4f0f070e1d53f7dc91f2b855a28d3b6"
+			"Rev": "1eb7cc680fdaef8a7717e7c22fe2eb2d7d547050"
 		},
 		{
 			"ImportPath": "github.infra.hana.ondemand.com/cloudfoundry/goauth_handlers/cookie",
-			"Rev": "d5a5964cc4f0f070e1d53f7dc91f2b855a28d3b6"
+			"Rev": "1eb7cc680fdaef8a7717e7c22fe2eb2d7d547050"
 		},
 		{
 			"ImportPath": "github.infra.hana.ondemand.com/cloudfoundry/goauth_handlers/session",
-			"Rev": "d5a5964cc4f0f070e1d53f7dc91f2b855a28d3b6"
+			"Rev": "1eb7cc680fdaef8a7717e7c22fe2eb2d7d547050"
 		},
 		{
 			"ImportPath": "github.infra.hana.ondemand.com/cloudfoundry/goauth_handlers/token",
-			"Rev": "d5a5964cc4f0f070e1d53f7dc91f2b855a28d3b6"
+			"Rev": "1eb7cc680fdaef8a7717e7c22fe2eb2d7d547050"
 		},
 		{
 			"ImportPath": "github.infra.hana.ondemand.com/cloudfoundry/gologger",
