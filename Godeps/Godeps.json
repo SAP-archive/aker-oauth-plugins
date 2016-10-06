@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugins",
+	"ImportPath": "github.com/SAP/aker-oauth-plugins",
 	"GoVersion": "go1.6",
 	"GodepVersion": "v74",
 	"Packages": [
@@ -152,31 +152,31 @@
 			"Rev": "f9ab0dce87d815821e221626b772e3475a0d2749"
 		},
 		{
-			"ImportPath": "github.infra.hana.ondemand.com/cloudfoundry/aker/plugin",
+			"ImportPath": "github.com/SAP/aker/plugin",
 			"Rev": "b1e6e82fd4f725dbfef3caa2c557636360906ece"
 		},
 		{
-			"ImportPath": "github.infra.hana.ondemand.com/cloudfoundry/aker/socket",
+			"ImportPath": "github.com/SAP/aker/socket",
 			"Rev": "b1e6e82fd4f725dbfef3caa2c557636360906ece"
 		},
 		{
-			"ImportPath": "github.infra.hana.ondemand.com/cloudfoundry/goauth_handlers",
+			"ImportPath": "github.com/SAP/goauth_handlers",
 			"Rev": "1eb7cc680fdaef8a7717e7c22fe2eb2d7d547050"
 		},
 		{
-			"ImportPath": "github.infra.hana.ondemand.com/cloudfoundry/goauth_handlers/cookie",
+			"ImportPath": "github.com/SAP/goauth_handlers/cookie",
 			"Rev": "1eb7cc680fdaef8a7717e7c22fe2eb2d7d547050"
 		},
 		{
-			"ImportPath": "github.infra.hana.ondemand.com/cloudfoundry/goauth_handlers/session",
+			"ImportPath": "github.com/SAP/goauth_handlers/session",
 			"Rev": "1eb7cc680fdaef8a7717e7c22fe2eb2d7d547050"
 		},
 		{
-			"ImportPath": "github.infra.hana.ondemand.com/cloudfoundry/goauth_handlers/token",
+			"ImportPath": "github.com/SAP/goauth_handlers/token",
 			"Rev": "1eb7cc680fdaef8a7717e7c22fe2eb2d7d547050"
 		},
 		{
-			"ImportPath": "github.infra.hana.ondemand.com/cloudfoundry/gologger",
+			"ImportPath": "github.com/SAP/gologger",
 			"Rev": "5c1c53373ac4e9bf892cea475c1c5fa8b995f3a4"
 		},
 		{

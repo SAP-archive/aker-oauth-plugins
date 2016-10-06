@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	. "github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugins/handler"
+	. "github.com/SAP/aker-oauth-plugins/handler"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

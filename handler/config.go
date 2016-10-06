@@ -3,7 +3,7 @@ package handler
 import (
 	"fmt"
 
-	"github.infra.hana.ondemand.com/cloudfoundry/aker/plugin"
+	"github.com/SAP/aker/plugin"
 )
 
 const sessionStoreKeyLength = 32

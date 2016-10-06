@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	"github.infra.hana.ondemand.com/cloudfoundry/goauth_handlers"
-	"github.infra.hana.ondemand.com/cloudfoundry/goauth_handlers/cookie"
-	"github.infra.hana.ondemand.com/cloudfoundry/goauth_handlers/session"
-	"github.infra.hana.ondemand.com/cloudfoundry/goauth_handlers/token"
-	"github.infra.hana.ondemand.com/cloudfoundry/gologger"
+	"github.com/SAP/goauth_handlers"
+	"github.com/SAP/goauth_handlers/cookie"
+	"github.com/SAP/goauth_handlers/session"
+	"github.com/SAP/goauth_handlers/token"
+	"github.com/SAP/gologger"
 	"golang.org/x/net/context"
 	"golang.org/x/oauth2"
 )
