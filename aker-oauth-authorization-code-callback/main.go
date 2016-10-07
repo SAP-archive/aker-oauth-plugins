@@ -3,10 +3,10 @@ package main
 import (
 	"net/http"
 
-	"github.infra.hana.ondemand.com/cloudfoundry/aker/plugin"
-	"github.infra.hana.ondemand.com/cloudfoundry/gologger"
+	"github.com/SAP/aker/plugin"
+	"github.com/SAP/gologger"
 
-	"github.infra.hana.ondemand.com/cloudfoundry/aker-oauth-plugins/handler"
+	"github.com/SAP/aker-oauth-plugins/handler"
 )
 
 func main() {

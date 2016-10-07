@@ -8,8 +8,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.infra.hana.ondemand.com/cloudfoundry/aker/socket"
-	"github.infra.hana.ondemand.com/cloudfoundry/gologger"
+	"github.com/SAP/aker/socket"
+	"github.com/SAP/gologger"
 )
 
 //go:generate counterfeiter . Socket
@@ -118,7 +118,7 @@ func (s *Server) ListenAndServeHTTP(factory HandlerFactory) error {
 	defer server.Stop()
 
 	c := make(chan os.Signal)
-	s.signal.Notify(c, os.Interrupt, syscall.SIGTERM, syscall.SIGKILL)
+	s.signal.Notify(c, os.Interrupt, syscall.SIGTERM)
 
 	sig := <-c
 	s.log.Infof("Exiting due to: %v\n", sig)
