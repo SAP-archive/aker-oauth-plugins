@@ -2,6 +2,11 @@
 
 This repository contains Aker plugins related to OAuth authentication.
 
+# License
+
+This project is licensed under the Apache Software License, v. 2 except as noted otherwise in the LICENSE file.
+
+# User Guide
 
 ## Aker OAuth Authorization Code Plugin
 
