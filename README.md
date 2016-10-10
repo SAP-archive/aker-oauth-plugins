@@ -65,3 +65,11 @@ It has the same configuration as the `aker-oauth-authorization-code` plugin. You
 session: *session_config
 oauth: *oauth_config
 ```
+
+## Tests
+
+`aker-oauth-plugins` project contains unit tests, in order to execute them run the following command in project root directory.
+
+```bash
+ginkgo -r
+```
