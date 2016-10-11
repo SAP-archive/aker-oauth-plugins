@@ -1,3 +1,5 @@
+[![CLA assistant](https://cla-assistant.io/readme/badge/SAP/aker-oauth-plugins)](https://cla-assistant.io/SAP/aker-oauth-plugins)
+
 # Aker OAuth plugins
 
 This repository contains Aker plugins related to OAuth authentication.
