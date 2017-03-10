@@ -1,4 +1,5 @@
 [![CLA assistant](https://cla-assistant.io/readme/badge/SAP/aker-oauth-plugins)](https://cla-assistant.io/SAP/aker-oauth-plugins)
+[![Travis Build](https://travis-ci.org/SAP/aker-oauth-plugins.svg?branch=master)](https://travis-ci.org/SAP/aker-oauth-plugins)
 
 # Aker OAuth plugins
 
